@@ -1,0 +1,60 @@
+/* ESTILO imagen*/
+.img {
+    width: 50%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+#descrip {
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@font-face {
+    font-family: "pixel";
+    src: url("./fonts/Pixel.ttf");
+}
+
+#titulo {
+    border-radius: 1rem;
+    background-color: rgb(94, 205, 50);
+    color: black;
+    text-size-adjust: 50%;
+    text-align: center;
+    font-family: "pixel", sans-serif;
+}
+
+#etapa {
+    border: 3px solid black;
+    font-family: "pixel", sans-serif;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    background-color: rgb(231, 139, 0);
+    color: black;
+    text-size-adjust: 50%;
+    text-align: center;
+
+}
+
+.fondo {
+    background: rgb(17, 17, 17);
+}
+
+.sele{
+    position: relative;
+    left: 5%;
+    width: 10%;
+    font-family: "pixel", sans-serif;
+    font-size: large;
+    background-color: rgb(197, 184, 255);
+}
